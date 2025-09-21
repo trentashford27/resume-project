@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Trent's Resume</title>
-    </head>
-    <body>
-        <h1 id="my-name">Your name</h1>
-       
-        <h2>Job Title:</h2>
-        <p id="title">title replaced here</p>
-        
-        <h2>Education:</h2>
-        <p id="education">education goes here</p>
-        
-        <h2>Experience:</h2>
-        <p id="experience">experience goes here</p>
-        
-        <h2>Skills:</h2>
-        <div id="skills">
-            <!-- Skills list will be inserted here -->
-            <button onclick="showFunFact()">Show Fun Fact</button>
-        </div>
-
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Trent's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        #skills ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="my-name">Your Name</h1>
+   
+    <h2>Job Title:</h2>
+    <p id="title">Title replaced here</p>
+    
+    <h2>Education:</h2>
+    <p id="education">Education goes here</p>
+    
+    <h2>Experience:</h2>
+    <p id="experience">Experience goes here</p>
+    
+    <h2>Skills:</h2>
+    <div id="skills">
+        <!-- Skills list will be inserted here -->
+        <button onclick="showFunFact()">Show Fun Fact</button>
+    </div>
 
     <script type="text/javascript" src="resume.js"></script>
-
+</body>
 </html>
